@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 const links = {
-  "color": "white"
+  "color": "#777"
 }
 
 export default class Navbar extends Component {
 
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-2 mb-2">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between p-2 mb-2">
         <Link to="/" className="navbar-brand">ExcerTracker</Link>
         <ul className="nav">
           <li className="nav-item">

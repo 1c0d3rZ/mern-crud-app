@@ -27,6 +27,7 @@ class EditExercise extends Component {
     axios
       .get("http://localhost:5000/exercises/" + this.props.id)
       .then((response) => {
+
         this.setState({
           username: response.data.username,
           description: response.data.description,
